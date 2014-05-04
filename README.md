@@ -7,6 +7,14 @@ Example RedCarpet Renderer for adjusting the right rag of the generated HTML. It
 4. Don't break emphasised, bold or linked phrases of three or fewer words.
 5. Don't allow orphans at the end of paragraphs.
 
+## Running the Code
+
+````shell
+git clone https://github.com/dannysmith/ragged_redcarpet.git && cd ragged_redcarpet && bundle install
+
+ruby ./app.rb
+````
+
 ## Further Reading
 
 This was inspired by Mark boulton's [article](http://24ways.org/2013/run-ragged/) on 24Ways.
